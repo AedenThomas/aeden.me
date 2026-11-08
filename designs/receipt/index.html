@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="/designs/kit/roulette.js?v=f4ca2388ea"></script><script type="importmap">{"imports":{"/designs/kit/site.js":"/designs/kit/site.js?v=f95beee7bc","/designs/kit/warm.js":"/designs/kit/warm.js?v=ff51e3c55f"}}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aeden Thomas · Receipt</title>
+<meta name="description" content="Aeden Thomas, full-stack engineer in London. Itemised.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://aeden.me/">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789%20.%2C%27%C3%97%26!%3F-%E2%80%93%3A%2F%2B%23&display=swap">
+<link rel="modulepreload" href="/designs/kit/kit.js?v=819df85d77">
+<link rel="modulepreload" href="/designs/kit/site.js?v=f95beee7bc">
+<link rel="stylesheet" href="style.css?v=c2b7231a8d">
+<!-- The display face and the bold mono start loading now. main.js runs only once kit.js
+     and site.js are in, and with site.js late they swapped in while the paper fed out,
+     moving the name (CLS 0.027 on a 4× CPU phone). "A" fetches only the Latin files. -->
+<script>document.fonts && ['900 1em "Big Shoulders Display"', '700 1em "JetBrains Mono"'].forEach(function (f) { document.fonts.load(f, "A").catch(function () {}); });</script>
+<script type="module" src="main.js?v=6758879202"></script>
+</head>
+<body>
+<header class="chrome">
+  <a class="brand" id="brand" href="#top" aria-label="Back to the top"></a>
+  <div class="chips">
+    <button type="button" class="chip" id="sound" aria-pressed="false"><span class="dot" aria-hidden="true"></span>sound</button>
+    <button type="button" class="chip" id="theme" data-kit="theme"><span class="dot" aria-hidden="true"></span><span id="theme-label">dark</span></button>
+  </div>
+</header>
+
+<nav class="legend" aria-label="Receipt contents">
+  <p class="legend-h">Receipt contents</p>
+  <ol>
+    <li><a href="#intro">Intro<span class="lead"></span></a></li>
+    <li><a href="#contact">Contact<span class="lead"></span></a></li>
+    <li><a href="#work">Work<span class="lead"></span></a></li>
+    <li><a href="#prodev">Pro. dev<span class="lead"></span></a></li>
+    <li><a href="#hackathons">Hackathons<span class="lead"></span></a></li>
+    <li><a href="#projects">Projects<span class="lead"></span></a></li>
+    <li><a href="#skills">Skills<span class="lead"></span></a></li>
+    <li><a href="#education">Education<span class="lead"></span></a></li>
+    <li><a href="#research">Research<span class="lead"></span></a></li>
+    <li><a href="#coursework">Coursework<span class="lead"></span></a></li>
+    <li><a href="#total">Total<span class="lead"></span></a></li>
+  </ol>
+  <p class="prog"><span id="pct">0</span>% printed</p>
+  <div class="bar" aria-hidden="true"><i id="bar"></i></div>
+</nav>
+
+<main id="top">
+  <div class="paperwrap">
+    <div class="paper" id="paper">
+      <svg class="edge" id="edge-top" viewBox="0 0 400 12" preserveAspectRatio="none" aria-hidden="true"><path d=""/></svg>
+      <article class="sheet" id="sheet" aria-label="Receipt"></article>
+      <div class="stubzone" id="stubzone">
+        <button class="tear ln" id="tear" type="button"><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M8.2 7.8 20 18M8.2 16.2 20 6"/></svg>tear here</span></button>
+        <div class="stub" id="stub">
+          <div class="sheet stub-sheet" id="stub-sheet"></div>
+          <svg class="edge edge-bottom" id="edge-bottom" viewBox="0 0 400 12" preserveAspectRatio="none" aria-hidden="true"><path d=""/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="foot">
+  <section class="card" id="card" aria-labelledby="h-card" inert></section>
+  <p class="colophon" id="colophon"></p>
+</footer>
+
+<div class="printer" id="printer" aria-hidden="true">
+  <div class="housing"></div>
+  <div class="lip"></div>
+  <div class="panel"><span><i class="led" id="led"></i><span id="model"></span> thermal</span><span class="feed">feed <span id="feed">000</span>%</span></div>
+  <div class="grille"></div>
+</div>
+
+<div class="peek" id="peek" aria-hidden="true"><img alt="" id="peek-img" width="164" height="110"><p id="peek-cap"></p></div>
+
+<noscript><a href="/llms.txt">Aeden Thomas: plain-text portfolio</a></noscript>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="/designs/kit/roulette.js?v=f4ca2388ea"></script><script type="importmap">{"imports":{"/designs/kit/site.js":"/designs/kit/site.js?v=f95beee7bc","/designs/kit/warm.js":"/designs/kit/warm.js?v=ff51e3c55f"}}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aeden Thomas · Broadsheet</title>
+<meta name="description" content="Aeden Thomas, full-stack engineer in London, set as the front page of a broadsheet.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://aeden.me/">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&text=The%20Daily%20Aeden&display=swap">
+<link rel="modulepreload" href="/designs/kit/kit.js?v=819df85d77">
+<link rel="modulepreload" href="/designs/kit/site.js?v=f95beee7bc">
+<link rel="modulepreload" href="halftone.js?v=1534be94e5">
+<link rel="stylesheet" href="style.css?v=d7c933322b">
+<!-- main.js runs only once kit.js and site.js are in, so the blank paper is hidden from
+     the first paint here: with site.js late, its empty dateline and strip moved down when
+     the masthead arrived (CLS 0.03 on a phone with reduced motion) -->
+<script>document.documentElement.classList.add("js");</script>
+<script type="module" src="main.js?v=834e64e9fb"></script>
+</head>
+<body>
+<header class="head" id="top">
+  <div class="bar" id="bar">
+    <div class="bar-in">
+      <a class="bar-title" id="bar-title" href="#top" tabindex="-1" aria-hidden="true"></a>
+      <p class="bar-ed" id="bar-ed"></p>
+      <nav class="bar-nav" id="bar-nav" aria-label="Sections"></nav>
+      <button type="button" class="theme" id="theme" data-kit="theme"><span class="theme-ico" aria-hidden="true"></span><span id="theme-label">night edition</span></button>
+    </div>
+  </div>
+  <div class="mast" id="mast"></div>
+  <div class="dateline" id="dateline"></div>
+  <nav class="strip" id="strip" aria-label="Sections"></nav>
+  <div class="ticker" id="ticker"></div>
+</header>
+<main class="paper" id="paper"></main>
+<footer class="back" id="back"></footer>
+<span class="warm" aria-hidden="true"><b>a</b><i>a</i><u>a</u><s>The</s></span>
+<noscript><p class="nojs"><a href="/llms.txt">Aeden Thomas: plain-text portfolio</a></p></noscript>
+</body>
+</html>
