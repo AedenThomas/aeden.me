@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="/designs/kit/roulette.js?v=f4ca2388ea"></script><script type="importmap">{"imports":{"/designs/kit/site.js":"/designs/kit/site.js?v=ba5dc86711","/designs/kit/warm.js":"/designs/kit/warm.js?v=ff51e3c55f"}}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aeden Thomas · Canvas</title>
+<meta name="description" content="Aeden Thomas, full-stack engineer in London. The portfolio as a live design file, with company.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://aeden.me/">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..800&family=JetBrains+Mono:wght@400..600&display=swap">
+<link rel="modulepreload" href="/designs/kit/kit.js?v=819df85d77">
+<link rel="modulepreload" href="/designs/kit/site.js?v=ba5dc86711">
+<link rel="stylesheet" href="style.css?v=140ea17e77">
+<script type="module" src="main.js?v=155b0fcf66"></script>
+</head>
+<body>
+<a class="skip" href="#intro">Skip to the portfolio</a>
+
+<header class="bar" id="bar">
+  <div class="bar-l">
+    <button type="button" class="menu-btn" id="menu-btn" aria-haspopup="menu" aria-expanded="false" aria-controls="menu" aria-label="Main menu">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="2" width="7" height="7" rx="3.5"/><rect x="11" y="2" width="7" height="7" rx="1.5"/><rect x="2" y="11" width="7" height="7" rx="1.5"/><rect x="11.75" y="11.75" width="5.5" height="5.5" rx="1" class="o"/></svg>
+      <svg class="chev" viewBox="0 0 8 8" aria-hidden="true"><path d="M1.5 3l2.5 2.5L6.5 3"/></svg>
+    </button>
+    <div class="tools" role="toolbar" aria-label="Tools" id="tools">
+      <button type="button" class="tool" data-tool="move" aria-pressed="true" title="Move · V" aria-label="Move tool"><svg viewBox="0 0 16 16" aria-hidden="true"><path class="f" d="M3.2 2.2l9.6 4.6-4.1 1.3-1.6 4.1z"/></svg></button>
+      <button type="button" class="tool" data-tool="hand" aria-pressed="false" title="Hand · H" aria-label="Hand tool"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 8V3.6a1 1 0 0 1 2 0V7m0-3.9V2.6a1 1 0 0 1 2 0V7m0-3.4a1 1 0 0 1 2 0V8m0-2.4a1 1 0 0 1 2 0v4c0 2.6-1.9 4.4-4.4 4.4H8.6c-1.4 0-2.4-.6-3.2-1.7L3.1 9.3a1 1 0 0 1 1.5-1.3L5.5 9"/></svg></button>
+      <span class="tsep" aria-hidden="true"></span>
+      <button type="button" class="tool deco" data-tool="frame" title="Frame · F" aria-label="Frame tool"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 1.5v13M11 1.5v13M1.5 5h13M1.5 11h13"/></svg></button>
+      <button type="button" class="tool deco" data-tool="shape" title="Rectangle · R" aria-label="Rectangle tool"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2.5" y="2.5" width="11" height="11" rx=".5"/></svg></button>
+      <button type="button" class="tool deco" data-tool="pen" title="Pen · P" aria-label="Pen tool"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.8l4.6 6.6L8 14.2 3.4 8.4z"/><circle cx="8" cy="8.6" r="1.3"/><path d="M8 1.8v5.5"/></svg></button>
+      <button type="button" class="tool deco" data-tool="text" title="Text · T" aria-label="Text tool"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3.5V2.6h10v.9M8 2.6v11M6 13.6h4"/></svg></button>
+      <span class="tsep" aria-hidden="true"></span>
+      <button type="button" class="tool" data-tool="comment" aria-pressed="true" title="Comments · C" aria-label="Show comments"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.2a5.8 5.8 0 1 1-5 8.7l-.9 3 3.1-.8A5.8 5.8 0 0 1 8 2.2z"/></svg></button>
+    </div>
+  </div>
+
+  <div class="bar-c">
+    <span class="crumb" id="crumb">Drafts</span><span class="slash" aria-hidden="true">/</span><span class="file" id="file">untitled</span>
+    <button type="button" class="where" id="where" aria-expanded="false" aria-controls="layers" aria-label="Frames in this file"><span id="where-name">intro</span><svg viewBox="0 0 8 8" aria-hidden="true"><path d="M1.5 3l2.5 2.5L6.5 3"/></svg></button>
+    <span class="viewonly" id="viewonly">View only</span>
+  </div>
+
+  <div class="bar-r">
+    <div class="people" id="people" aria-label="People in this file"></div>
+    <button type="button" class="ibtn" id="theme" data-kit="theme" title="Theme · ⌘⇧L" aria-label="Switch theme"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.6"/><path class="f" d="M8 2.4a5.6 5.6 0 0 1 0 11.2z"/></svg></button>
+    <button type="button" class="share" id="share">Share</button>
+    <span class="zoom" id="zoom" title="Zoom · ⌘+ / ⌘−">100%</span>
+  </div>
+</header>
+
+<div class="menu" id="menu" role="menu" aria-label="Main menu" hidden></div>
+
+<div class="rule-h" id="rule-h" aria-hidden="true"></div>
+<div class="rule-v" id="rule-v" aria-hidden="true"></div>
+
+<main id="canvas" class="canvas">
+  <p class="loading" id="loading"><span class="spin" aria-hidden="true"></span>opening file</p>
+</main>
+
+<footer class="colophon" id="colophon"></footer>
+
+<!-- the tool's panels come after the content, so keyboard focus reaches the portfolio first -->
+<nav class="lp" id="layers" aria-label="Layers">
+  <div class="ptabs" aria-hidden="true"><span class="on">File</span><span>Assets</span></div>
+  <div class="phead"><span>Pages</span></div>
+  <div class="page on" aria-hidden="true"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.2 2.2 4.8-4.8"/></svg>portfolio</div>
+  <div class="phead"><span>Layers</span></div>
+  <ol class="tree" id="tree"></ol>
+</nav>
+
+<aside class="rp" id="inspector" aria-label="Inspector">
+  <div class="itabs" role="tablist" aria-label="Inspector">
+    <button type="button" role="tab" class="itab" id="tab-design" aria-selected="true" aria-controls="insp">Design</button>
+    <button type="button" role="tab" class="itab" id="tab-proto" aria-selected="false" aria-controls="insp" tabindex="-1">Prototype</button>
+    <button type="button" role="tab" class="itab" id="tab-code" aria-selected="false" aria-controls="insp" tabindex="-1">Inspect</button>
+  </div>
+  <div class="insp" id="insp" role="tabpanel" aria-labelledby="tab-design"></div>
+</aside>
+
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<noscript><a href="/llms.txt">Aeden Thomas: plain-text portfolio</a></noscript>
+</body>
+</html>
