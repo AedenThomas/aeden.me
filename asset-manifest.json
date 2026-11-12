@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d977517c.css",
+    "main.js": "/static/js/main.bbc4271b.js",
+    "static/js/455.78188efb.chunk.js": "/static/js/455.78188efb.chunk.js",
+    "static/js/206.bdb10ae2.chunk.js": "/static/js/206.bdb10ae2.chunk.js",
+    "static/js/397.111be500.chunk.js": "/static/js/397.111be500.chunk.js",
+    "static/media/react-native.svg": "/static/media/react-native.be71bed1bce21ae23843e3443f0b1408.svg",
+    "index.html": "/index.html",
+    "static/media/aspnetcore.svg": "/static/media/aspnetcore.015330fad44a0f3cbc5cb0c95353daf0.svg",
+    "static/media/react.svg": "/static/media/react.19df4041a7c4767ba9dfb2ef654fe858.svg",
+    "static/media/python.svg": "/static/media/python.1e608010b20e8c54ca4e5bf6091d90ef.svg",
+    "static/media/default.svg": "/static/media/default.6b9b428864d6f95ada3092145e4be76b.svg",
+    "static/media/flutter.svg": "/static/media/flutter.50bb17c0e69f24a17adbcca9bd6e8528.svg"
+  },
+  "entrypoints": [
+    "static/css/main.d977517c.css",
+    "static/js/main.bbc4271b.js"
+  ]
+}
