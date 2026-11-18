@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Plain-text summary of this site for LLMs: https://aeden.me/llms.txt
+Sitemap: https://aeden.me/sitemap.xml
