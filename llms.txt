@@ -1,0 +1,89 @@
+# Aeden Geo Thomas
+Software Engineer | Full-Stack Developer
+
+## Contact
+- Email: hey@aeden.me
+- LinkedIn: https://www.linkedin.com/in/aedenthomas/
+- GitHub: https://github.com/AedenThomas/
+- Website: https://aeden.me
+
+## Experience
+### Shoutt
+**Full-Stack Engineer** | Nov 2025 - Present
+London, United Kingdom
+- jumped in as the first engineering hire right after a $700k seed round, spearheading the technical roadmap and shipping full-stack features to scale the platform.
+- built our own scraping engine that pulls in 60k+ jobs a week, so we didn't have to rely on a paid vendor, saving ~£20k a year.
+- cut our AI bill by $37k a year by switching to smaller, cheaper decision models that make 60% fewer mistakes, even with 11× more jobs coming through.
+- automated 35+ hours a week of copy-paste work, about one full-time person's job.
+- redesigned the main feed into a two-pane layout after users told us long lists were tiring to scroll. engagement up 35% for 12,000+ monthly users.
+- built a retention modal that cut churn by 22% and boosted downgrade conversions by 18%. every user matters.
+- got an AI classifier from 70% to 93% accuracy by making it think step by step, tested against 1,000+ real past records.
+
+### SJ Telford
+**Backend .NET Cloud Developer** | Jun 2025 - Nov 2025
+London, United Kingdom
+- built a new serverless .net 8 API from the ground up on azure functions, designed to handle over 12,000 concurrent players for 20+ games.
+- wrote a ton of tests (using xunit and moq) to take the project from 0% to over 95% test coverage, which let us finally build a stable CI/CD pipeline.
+- was obsessed with performance, so i wrote a complete load testing strategy with k6 to make sure the API stayed fast (under 500ms) and didn't crash, even under real-world, production-scale traffic.
+- fixed a nasty cold-start problem in azure functions by building a hybrid L1/L2 cache, which cut initial response times by over 85%.
+- wrote custom middleware to handle API key auth, securing 100% of the data endpoints and stopping bad requests right at the start.
+- figured out a novel way to test .NET 8 middleware when the framework itself had a limitation, allowing us to unit test 100% of our critical authentication logic (which was impossible before).
+
+### Intryc (YC W24)
+**Software Engineer Intern** | Nov 2024 - Jan 2025
+London, United Kingdom
+- jumped in as employee #4 at an early-stage YC startup, helping shape the architecture and coding standards from the beginning.
+- led the migration of a 50k+ line javascript codebase to typescript, ripping out old components and cutting down on our technical debt.
+- dug into our remix app and used useMemo and useCallback to slash unnecessary re-renders by 30%.
+- built the entire workload management system from scratch, handling complex state updates and real-time data visualization.
+- architected a reusable component library using typescript and remix's form handling, improving development efficiency and type safety across a 50k+ line codebase.
+
+## Professional Development
+### Y Combinator
+*Jun 2025*
+•  Selected as one of 2,000 top CS and AI students globally (out of 30,000 applicants) for this exclusive, fully-sponsored AI conference in San Francisco.
+
+• Engaged directly with AI's most influential leaders including Elon Musk, Sam Altman, Satya Nadella, and Fei-Fei Li through keynotes.
+
+## Hackathons
+### AI Interviewer
+*May 2024*
+Won third place and most innovative project at MoonHacks By Moon Corp for building an app that runs the first round of job interviews so nobody has to sit through twenty of them
+[View Submission](https://devpost.com/software/ai-interviewer-2q6g93)
+
+## Projects
+### Bill Split 🟢
+built a cross-platform bill splitting app that 3.66k+ people use on the app store
+[View Project](https://apps.apple.com/gb/app/billify-smart-bill-split/id6747454007)
+Technologies: Flutter, Dart, Azure Functions, Azure Form Recognizer, Node.js
+
+### AIResume 🟢
+built a Chrome extension that 117+ people use to tailor resumes and generate cover letters with AI in one click.
+[View Project](https://chromewebstore.google.com/detail/ai-resume-tailor/gckmlapghemhhedhmcigalmiilifkbpb)
+Technologies: Chrome Extension, JavaScript, C#, .NET API
+
+### Email Asterisk Decoder 📂
+Python script to predict and decode emails hidden behind asterisks for OSINT purposes.
+[View Project](https://github.com/AedenThomas/generateEmailAddress)
+Technologies: Python, NLP
+
+## Skills
+Python • C++ • C • Java • Dart • SQL • Bash • CSS • JavaScript • C# • Flutter • React • React Native • Node.js • ASP.NET Core • MySQL • MongoDB • SQL Server • Oracle Cloud • Google Cloud • Google Firebase • Microsoft Azure • Azure Functions • Azure Form Recognizer • Git • Unix • Data Structures and Algorithms • Blockchain
+
+## Education
+### University of Bath
+Master of Science in Computer Science
+*2024–2025*
+
+### B.M.S. College of Engineering
+Bachelors of Engineering in Information Science and Engineering
+*2020–2024*
+
+## Research & Publications
+### Military Split: A Flutter Mobile Application for Efficient Bill Splitting Based on Individual Consumption
+Aeden Geo Thomas, Kavana N. Murthy, Anitha H M, Jayarekha P
+*ICT for Intelligent Systems., 2024*
+DOI: 10.1007/978-981-97-6681-9
+
+## Relevant Coursework
+Engineering Mathematics • Statistics and Discrete Mathematics • Operating System • Data Structures with C • Object Oriented Programming using C++ • Digital Logic Design • Computer Organization and Architecture • Web Application Development • Linear Algebra • Database Management System • Analysis and Design of Algorithms • Java Programming • Theoretical Foundations of Computations • Unix System Programming • Machine Learning • Cloud Computing • Computer Networks • Advanced Python Programming • Advanced Data Structures and Algorithms • Cryptography and Network Security • Software Testing • Software Project Management and Finance • Social Networking and Analysis • Mobile Computing and 5G Technologies • DevOps • Information Security and Digital Forensics
